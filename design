@@ -1,0 +1,1269 @@
+<!DOCTYPE html>
+<html lang=“en”>
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" center="width=device-width,initial-scale=1.0">
+ <title>Dodument</title>
+ <script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.8.0/jquery-1.8.0.min.js"></script>
+ <style type="text/css">
+
+  *{
+   margin:0;
+   padding:0;
+   list-style:none;  
+  }
+
+   .a11{
+   width:100%;
+   
+   margin:0 auto ;
+  }
+
+  .a13{
+   width:100%;
+   
+   border:0px solid red;
+   background: #fff;
+   position: fixed;
+   z-index: 100;
+   box-shadow: 0px 0px 15px 0px #999999;
+  }
+
+   .container{
+     /* 设置一个具体的宽度 然后居中 */
+     width: 1920px;
+     margin: 0 auto;
+     clear:both;
+    
+    }
+
+
+    /* CSS第一排div开始 */ 
+   .b1{border-radius:22px;
+    }  
+
+   .b1:hover{box-shadow: 0px 0px 22px 0px #cecece;
+    transform:translateY(0.8%);
+   }
+    /* CSS第一排div结束 */ 
+
+    /* CSS第二排div开始 */ 
+   .b12{border-radius:22px;
+    }  
+
+   .b12:hover{box-shadow: 0px 0px 22px 0px #cecece;
+    transform:translateY(0.8%);
+   }
+    /* CSS第二排div结束 */  
+
+    /* CSS第三排div开始 */ 
+   .b13{border-radius:22px;
+    }  
+
+   .b13:hover{box-shadow: 0px 0px 22px 0px #cecece;
+    transform:translateY(0.8%);
+   }
+    /* CSS第三排div结束 */ 
+
+    /* CSS第四排div开始 */ 
+   .b14{border-radius:22px;
+    }  
+
+   .b14:hover{box-shadow: 0px 0px 22px 0px #cecece;
+    transform:translateY(0.8%);
+   }
+    /* CSS第四排div结束 */ 
+
+    /* CSS第五排div开始 */ 
+   .b15{border-radius:22px;
+    }  
+
+   .b15:hover{box-shadow: 0px 0px 22px 0px #cecece;
+    transform:translateY(0.8%);
+   }
+    /* CSS第五排div结束 */ 
+
+   
+
+   .container21{
+     /* 设置一个具体的宽度 然后居中 */
+
+     width:100%;
+     margin: 0 auto;
+    }
+     /* CSS第一排弹窗开始 */ 
+
+    .tc1{
+         width:100%;
+         margin:0 auto ;
+        position: fixed;
+        display: none;
+        border-radius:20px; 
+       
+        
+      }
+
+    .tc2{
+         width:100%;
+         margin:0 auto ;
+        position: fixed;
+        display: none;
+        border-radius:20px; 
+      }
+
+    .tc3{
+         width:100%;
+         margin:0 auto ;
+        position: fixed;
+        display: none;
+        border-radius:20px; 
+      }
+
+    .tc4{
+         width:100%;
+         margin:0 auto ;
+        position: fixed;
+        display: none;
+        border-radius:20px; 
+      }
+
+    .gb1{
+          padding-top:1.5%;
+          padding-left:79%;
+          position: fixed;
+      }
+
+     .gb2{
+          padding-top:1.5%;
+          padding-left:79%;
+          position: fixed;
+      }
+
+     .gb3{
+          padding-top:1.5%;
+          padding-left:79%;
+          position: fixed;
+      }
+
+     .gb4{
+          padding-top:1.5%;
+          padding-left:79%;
+          position: fixed;
+      }
+
+   /* CSS第一排弹窗结束 */  
+
+  /* CSS第二排弹窗开始 */ 
+
+    .tc12{
+         width:100%;
+         margin:0 auto ;
+        position: fixed;
+        display: none;
+        border-radius:20px; 
+      }
+
+    .tc22{
+         width:100%;
+         margin:0 auto ;
+        position: fixed;
+        display: none;
+        border-radius:20px; 
+      }
+
+    .tc32{
+         width:100%;
+         margin:0 auto ;
+        position: fixed;
+        display: none;
+        border-radius:20px; 
+      }
+
+    .tc42{
+         width:100%;
+         margin:0 auto ;
+        position: fixed;
+        display: none;
+        border-radius:20px; 
+      }
+
+    .gb12{
+          padding-top:1.5%;
+          padding-left:79%;
+          position: fixed;
+      }
+
+     .gb22{
+          padding-top:1.5%;
+          padding-left:79%;
+          position: fixed;
+      }
+
+     .gb32{
+          padding-top:1.5%;
+          padding-left:79%;
+          position: fixed;
+      }
+
+     .gb42{
+          padding-top:1.5%;
+          padding-left:79%;
+          position: fixed;
+      }
+
+   /* CSS第二排弹窗结束 */   
+
+   /* CSS第三排弹窗开始 */ 
+
+    .tc13{
+         width:100%;
+         margin:0 auto ;
+        position: fixed;
+        display: none;
+        border-radius:20px; 
+      }
+
+    .tc23{
+         width:100%;
+         margin:0 auto ;
+        position: fixed;
+        display: none;
+        border-radius:20px; 
+      }
+
+    .tc33{
+         width:100%;
+         margin:0 auto ;
+        position: fixed;
+        display: none;
+        border-radius:20px; 
+      }
+
+    .tc43{
+         width:100%;
+         margin:0 auto ;
+        position: fixed;
+        display: none;
+        border-radius:20px; 
+      }
+
+    .gb13{
+          padding-top:1.5%;
+          padding-left:79%;
+          position: fixed;
+      }
+
+     .gb23{
+          padding-top:1.5%;
+          padding-left:79%;
+          position: fixed;
+      }
+
+     .gb33{
+          padding-top:1.5%;
+          padding-left:79%;
+          position: fixed;
+      }
+
+     .gb43{
+          padding-top:1.5%;
+          padding-left:79%;
+          position: fixed;
+      }
+
+   /* CSS第三排弹窗结束 */   
+
+   /* CSS第四排弹窗开始 */ 
+
+    .tc14{
+         width:100%;
+         margin:0 auto ;
+        position: fixed;
+        display: none;
+        border-radius:20px; 
+      }
+
+    .tc24{
+         width:100%;
+         margin:0 auto ;
+        position: fixed;
+        display: none;
+        border-radius:20px; 
+      }
+
+    .tc34{
+         width:100%;
+         margin:0 auto ;
+        position: fixed;
+        display: none;
+        border-radius:20px; 
+      }
+
+    .tc44{
+         width:100%;
+         margin:0 auto ;
+        position: fixed;
+        display: none;
+        border-radius:20px; 
+      }
+
+    .gb14{
+          padding-top:1.5%;
+          padding-left:79%;
+          position: fixed;
+      }
+
+     .gb24{
+          padding-top:1.5%;
+          padding-left:79%;
+          position: fixed;
+      }
+
+     .gb34{
+          padding-top:1.5%;
+          padding-left:79%;
+          position: fixed;
+      }
+
+     .gb44{
+          padding-top:1.5%;
+          padding-left:79%;
+          position: fixed;
+      }
+
+   /* CSS第四排弹窗结束 */  
+
+
+   /* CSS第五排弹窗开始 */ 
+
+    .tc15{
+         width:100%;
+         margin:0 auto ;
+        position: fixed;
+        display: none;
+        border-radius:20px; 
+      }
+
+    .tc25{
+         width:100%;
+         margin:0 auto ;
+        position: fixed;
+        display: none;
+        border-radius:20px; 
+      }
+
+    .tc35{
+         width:100%;
+         margin:0 auto ;
+        position: fixed;
+        display: none;
+        border-radius:20px; 
+      }
+
+    .tc45{
+         width:100%;
+         margin:0 auto ;
+        position: fixed;
+        display: none;
+        border-radius:20px; 
+      }
+
+    .gb15{
+          padding-top:1.5%;
+          padding-left:79%;
+          position: fixed;
+      }
+
+     .gb25{
+          padding-top:1.5%;
+          padding-left:79%;
+          position: fixed;
+      }
+
+     .gb35{
+          padding-top:1.5%;
+          padding-left:79%;
+          position: fixed;
+      }
+
+     .gb45{
+          padding-top:1.5%;
+          padding-left:79%;
+          position: fixed;
+      }
+
+   /* CSS第五排弹窗结束 */ 
+      .container21 div {z-index: 2;}
+      #mask{width: 100%;height: 100%;position:fixed;left: 0;top:0;background:rgb(0 0 0 / 70%);z-index: 1;}
+  </style>
+</head>
+<body>
+     <div class="a11" >
+
+         <div class="a13" >
+            <img src="https://gw.alicdn.com/imgextra/i2/O1CN01LAXrfc1qimytXLLYd_!!6000000005530-2-tps-1920-221.png" width="100%" height="100%" >
+         </div>
+
+     </div>
+
+
+      <div class="container" style=" padding-top:14%; width:100%; height:100%;">
+
+                
+
+                <!--第一排小div开始-->
+                <div  style=" float:left; width:100%; background:#000; "></div>
+                  <div  style=" float:left; width:6.8%; background:#fff; height:100px;"></div>
+
+                  <div class="b1" id="box1" style=" float:left; width:20.6%; ;">
+                       <img src="https://gw.alicdn.com/imgextra/i1/O1CN01zePHgw1qb0FXUvSnc_!!6000000005513-2-tps-397-612.png" width="100%" height="90%" >
+                  </div>
+
+                  <div style=" float:left; width:1.3%; background:#fff; height:100px;"></div> 
+
+                  <div class="b1" id="box2" style=" float:left; width:20.6%; ;">
+                       <img src="https://gw.alicdn.com/imgextra/i2/O1CN01LyQXtF1Id78hlK4Zm_!!6000000000915-2-tps-397-612.png" width="100%" height="100%" >
+
+                  </div>
+                
+                <div style=" float:left; width:1.3%; background:#fff; height:100px;"></div> 
+
+                  <div class="b1" id="box3" style=" float:left; width:20.6%; ;">
+                       <img src="https://gw.alicdn.com/imgextra/i3/O1CN01YY8Cqi1fvBw3u8vNn_!!6000000004068-2-tps-397-612.png" width="100%" height="100%" >
+
+                  </div>
+
+                <div style=" float:left; width:1.3%; background:#fff; height:100px;"></div>
+
+                  <div class="b1" id="box4" style=" float:left; width:20.6%; ;">
+                       <img src="https://gw.alicdn.com/imgextra/i1/O1CN01lxinmH1z4KXKG0jVf_!!6000000006660-2-tps-397-612.png" width="100%" height="100%" >
+
+                  </div>
+                 <div style=" float:left; width:6.9%; background:#fff; height:100px;"></div>
+                  <div  style=" float:left; width:100%; background:#fff; padding-top:4%;"></div> 
+                     <!--第一排小div结束-->
+                    
+
+                   <!--第二排小div开始-->
+
+                  <div  style=" float:left; width:6.8%; background:#fff; height:100px;"></div>
+
+                  <div class="b12" id="box12" style=" float:left; width:20.6%; ;">
+                       <img src="https://gw.alicdn.com/imgextra/i4/O1CN01uTSn5822sCVannToJ_!!6000000007175-2-tps-397-612.png" width="100%" height="100%" >
+                  </div>
+
+                  <div style=" float:left; width:1.3%; background:#fff; height:100px;"></div> 
+
+                  <div class="b12" id="box22" style=" float:left; width:20.6%; ;">
+                       <img src="https://gw.alicdn.com/imgextra/i2/O1CN01WzgFSJ1FrMcDaMSbJ_!!6000000000540-2-tps-397-612.png" width="100%" height="100%" >
+
+                  </div>
+                
+                <div style=" float:left; width:1.3%; background:#fff; height:100px;"></div> 
+
+                  <div class="b12" id="box32" style=" float:left; width:20.6%; ;">
+                       <img src="https://gw.alicdn.com/imgextra/i2/O1CN01bOhqPk1slCIWfKNMK_!!6000000005806-2-tps-397-612.png" width="100%" height="100%" >
+
+                  </div>
+
+                <div style=" float:left; width:1.3%; background:#fff; height:100px;"></div>
+
+                  <div class="b12" id="box42" style=" float:left; width:20.6%; ;">
+                       <img src="https://gw.alicdn.com/imgextra/i1/O1CN01rQqm6Z1Y4nJPr8LBs_!!6000000003006-2-tps-397-612.png" width="100%" height="100%" >
+
+                  </div>
+                 <div style=" float:left; width:6.9%; background:#fff; height:100px;"></div>
+
+                 <div  style=" float:left; width:100%; background:#fff; padding-top:4%;"></div>                 
+                  <!--第二排小div结束--> 
+
+                <!--第三排小div开始-->
+
+                  <div  style=" float:left; width:6.8%; background:#fff; height:100px;"></div>
+
+                  <div class="b13" id="box13" style=" float:left; width:20.6%; ;">
+                       <img src="https://gw.alicdn.com/imgextra/i1/O1CN014i26Zd1e2OwF2yiWk_!!6000000003813-2-tps-397-612.png" width="100%" height="100%" >
+                  </div>
+
+                  <div style=" float:left; width:1.3%; background:#fff; height:100px;"></div> 
+
+                  <div class="b13" id="box23" style=" float:left; width:20.6%; ;">
+                       <img src="https://gw.alicdn.com/imgextra/i4/O1CN01flZZqV1dNBI5XpT31_!!6000000003723-2-tps-397-612.png" width="100%" height="100%" >
+
+                  </div>
+                
+                <div style=" float:left; width:1.3%; background:#fff; height:100px;"></div> 
+
+                  <div class="b13" id="box33" style=" float:left; width:20.6%; ;">
+                       <img src="https://gw.alicdn.com/imgextra/i2/O1CN01co9ul41x6VBaWvEI9_!!6000000006394-2-tps-397-612.png" width="100%" height="100%" >
+
+                  </div>
+
+                <div style=" float:left; width:1.3%; background:#fff; height:100px;"></div>
+
+                  <div class="b13" id="box43" style=" float:left; width:20.6%; ;">
+                       <img src="https://gw.alicdn.com/imgextra/i2/O1CN01AcWy8n1USpdUg3sQH_!!6000000002517-2-tps-397-612.png" width="100%" height="100%" >
+
+                  </div>
+                 <div style=" float:left; width:6.9%; background:#fff; height:100px;"></div>
+                  <div  style=" float:left; width:100%; background:#fff; padding-top:4%;"></div>  
+                     <!--第三排小div结束--> 
+
+                 <!--第四排小div开始-->
+
+                  <div  style=" float:left; width:6.8%; background:#fff; height:100px;"></div>
+
+                  <div class="b14" id="box14" style=" float:left; width:20.6%; ;">
+                       <img src="https://gw.alicdn.com/imgextra/i1/O1CN01Ak7dA622iaBumLdL3_!!6000000007154-2-tps-397-797.png" width="100%" height="100%" >
+                  </div>
+
+                  <div style=" float:left; width:1.3%; background:#fff; height:100px;"></div> 
+
+                  <div class="b14" id="box24" style=" float:left; width:20.6%; ;">
+                       <img src="https://gw.alicdn.com/imgextra/i1/O1CN0101miT61dkztDel7th_!!6000000003775-2-tps-397-797.png" width="100%" height="100%" >
+
+                  </div>
+                
+                <div style=" float:left; width:1.3%; background:#fff; height:100px;"></div> 
+
+                  <div class="b14" id="box34" style=" float:left; width:20.6%; ;">
+                       <img src="https://gw.alicdn.com/imgextra/i1/O1CN01MtnkF81nhSzghzlMA_!!6000000005121-2-tps-397-797.png" width="100%" height="100%" >
+
+                  </div>
+
+                <div style=" float:left; width:1.3%; background:#fff; height:100px;"></div>
+
+                  <div class="b14" id="box44" style=" float:left; width:20.6%; ;">
+                       <img src="https://gw.alicdn.com/imgextra/i1/O1CN01UskbOR1iOccFJjrMP_!!6000000004403-2-tps-397-797.png" width="100%" height="100%" >
+
+                  </div>
+                 <div style=" float:left; width:6.9%; background:#fff; height:100px;"></div>
+                  <div  style=" float:left; width:100%; background:#fff; padding-top:4%;"></div>  
+                     <!--第四排小div结束--> 
+
+
+                <!--第五排小div开始-->
+
+                  <div  style=" float:left; width:6.8%; background:#fff; height:100px;"></div>
+
+                  <div class="b15" id="box15" style=" float:left; width:20.6%; ;">
+                       <img src="https://gw.alicdn.com/imgextra/i3/O1CN01H7REyT1iSHmkoO2H6_!!6000000004411-2-tps-397-797.png" width="100%" height="100%" >
+                  </div>
+
+                  <div style=" float:left; width:1.3%; background:#fff; height:100px;"></div> 
+
+                  <div class="b15" id="box25" style=" float:left; width:20.6%; ;">
+                       <img src="https://gw.alicdn.com/imgextra/i3/O1CN01RovYs41l1fcMxXu5w_!!6000000004759-2-tps-397-797.png" width="100%" height="100%" >
+
+                  </div>
+                
+                <div style=" float:left; width:1.3%; background:#fff; height:100px;"></div> 
+
+                  <div class="b15" id="box35" style=" float:left; width:20.6%; ;">
+                       <img src="https://gw.alicdn.com/imgextra/i3/O1CN01He50Rj1rexHeLRg6R_!!6000000005657-2-tps-397-797.png" width="100%" height="100%" >
+
+                  </div>
+
+                <div style=" float:left; width:1.3%; background:#fff; height:100px;"></div>
+
+                  <div class="b15" id="box45" style=" float:left; width:20.6%; ;">
+                       <img src="https://gw.alicdn.com/imgextra/i4/O1CN01RPomNd1EdKrmZZWf3_!!6000000000374-2-tps-397-797.png" width="100%" height="100%" >
+
+                  </div>
+                 <div style=" float:left; width:6.9%; background:#fff; " ></div>
+
+                <div class="yq00" style=" float:left; background:#fff;width:100%">
+
+                     <div class="yq01" style=" float:left;  width:100% ; ">
+                             <img src="https://gw.alicdn.com/imgextra/i1/O1CN012mhMzD1KJXRSkelZ7_!!6000000001143-1-tps-1920-520.gif" width="100%" height="100%" >
+                         </div>
+                </div>
+
+                     <!--第五排小div结束--> 
+
+
+            <div class="container21" style="  width:100%; height:100%;">
+                 <!--第一排弹窗开始-->
+
+               <div class="tc1"id="tc1"  >
+                        <div style=" float:left; width:6.8%; height:100px;" ></div>
+                        <div style=" float:left; width:86.3%; " >
+                         <div class="gb1" id="gb1" style=" float:left;  width:5.208% ;height:5.55%; ">
+                             <img src="https://gw.alicdn.com/imgextra/i2/O1CN01eNPlux1iPznn8FEtS_!!6000000004406-2-tps-100-60.png" width="100%" height="100%" >
+                         </div>
+
+                         <div style=" float:left; width:100%; height:100%;   ">
+                            <img src="https://gw.alicdn.com/imgextra/i1/O1CN01l5MosM1VRHv2lPRWR_!!6000000002649-2-tps-1656-730.png" width="100%" height="100%" >
+                         </div>
+                         </div>
+                        <div style=" float:left; width:6.9%;  height:100px;" ></div>
+                 </div>
+
+                 <div class="tc2"id="tc2" >
+                        <div style=" float:left; width:6.8%; height:100px;" ></div>
+                        <div style=" float:left; width:86.3%; " >
+                         <div class="gb2" id="gb2" style=" float:left;  width:5.208% ;height:5.55%; ">
+                             <img src="https://gw.alicdn.com/imgextra/i2/O1CN01eNPlux1iPznn8FEtS_!!6000000004406-2-tps-100-60.png" width="100%" height="100%" >
+                         </div>
+
+                         <div  style=" float:left;  width:100%;height:100%; ">
+                            <img src="https://gw.alicdn.com/imgextra/i4/O1CN01VAW5Es1uLD3TCzbjk_!!6000000006020-2-tps-1656-730.png" width="100%" height="100%" >
+                         </div>
+                         </div>
+                        <div style=" float:left; width:6.9%; height:100px;" ></div>
+                 </div>
+
+                 <div class="tc3"id="tc3" >
+                        <div style=" float:left; width:6.8%; height:100px;" ></div>
+                        <div style=" float:left; width:86.3%; " >
+                         <div class="gb3" id="gb3" style=" float:left;  width:5.208% ;height:5.55%; ">
+                             <img src="https://gw.alicdn.com/imgextra/i2/O1CN01eNPlux1iPznn8FEtS_!!6000000004406-2-tps-100-60.png" width="100%" height="100%" >
+                         </div>
+
+                         <div  style=" float:left;  width:100%;height:100%; ">
+                            <img src="https://gw.alicdn.com/imgextra/i3/O1CN01DUeYgg1b725xRfkE1_!!6000000003417-2-tps-1656-730.png" width="100%" height="100%" >
+                         </div>
+                         </div>
+                        <div style=" float:left; width:6.9%; height:100px;" ></div>
+                 </div>
+
+                 <div class="tc4"id="tc4" >
+                        <div style=" float:left; width:6.8%; height:100px;" ></div>
+                        <div style=" float:left; width:86.3%; " >
+                         <div class="gb4" id="gb4" style=" float:left;  width:5.208% ;height:5.55%; ">
+                             <img src="https://gw.alicdn.com/imgextra/i2/O1CN01eNPlux1iPznn8FEtS_!!6000000004406-2-tps-100-60.png" width="100%" height="100%" >
+                         </div>
+
+                         <div  style=" float:left;  width:100%;height:100%; ">
+                            <img src="https://gw.alicdn.com/imgextra/i1/O1CN01oXyeQS21HGxhMtXiV_!!6000000006959-2-tps-1656-730.png" width="100%" height="100%" >
+                         </div>
+                         </div>
+                        <div style=" float:left; width:6.9%; height:100px;" ></div>
+                 </div>
+             <!--第一排弹窗结束-->
+
+                 <!--第二排弹窗开始-->
+
+               <div class="tc12"id="tc12" >
+                        <div style=" float:left; width:6.8%; height:100px;" ></div>
+                        <div style=" float:left; width:86.3%; " >
+                         <div class="gb12" id="gb12" style=" float:left;  width:5.208% ;height:5.55%; ">
+                             <img src="https://gw.alicdn.com/imgextra/i2/O1CN01eNPlux1iPznn8FEtS_!!6000000004406-2-tps-100-60.png" width="100%" height="100%" >
+                         </div>
+
+                         <div  style=" float:left;  width:100%;height:100%; ">
+                            <img src="https://gw.alicdn.com/imgextra/i2/O1CN01YujLXM1OL9IUHnVN0_!!6000000001688-2-tps-1656-730.png" width="100%" height="100%" >
+                         </div>
+                         </div>
+                        <div style=" float:left; width:6.9%; height:100px;" ></div>
+                 </div>
+
+                 <div class="tc22"id="tc22" >
+                        <div style=" float:left; width:6.8%; height:100px;" ></div>
+                        <div style=" float:left; width:86.3%; " >
+                         <div class="gb22" id="gb22" style=" float:left;  width:5.208% ;height:5.55%; ">
+                             <img src="https://gw.alicdn.com/imgextra/i2/O1CN01eNPlux1iPznn8FEtS_!!6000000004406-2-tps-100-60.png" width="100%" height="100%" >
+                         </div>
+
+                         <div  style=" float:left;  width:100%;height:100%; ">
+                            <img src="https://gw.alicdn.com/imgextra/i4/O1CN01Pcinwh1UL2u6tPFXj_!!6000000002500-2-tps-1656-730.png" width="100%" height="100%" >
+                         </div>
+                         </div>
+                        <div style=" float:left; width:6.9%; height:100px;" ></div>
+                 </div>
+
+                 <div class="tc32"id="tc32" >
+                        <div style=" float:left; width:6.8%; height:100px;" ></div>
+                        <div style=" float:left; width:86.3%; " >
+                         <div class="gb32" id="gb32" style=" float:left;  width:5.208% ;height:5.55%; ">
+                             <img src="https://gw.alicdn.com/imgextra/i2/O1CN01eNPlux1iPznn8FEtS_!!6000000004406-2-tps-100-60.png" width="100%" height="100%" >
+                         </div>
+
+                         <div  style=" float:left;  width:100%;height:100%; ">
+                            <img src="https://gw.alicdn.com/imgextra/i2/O1CN01gpI0ms1dq2FCjmHHY_!!6000000003786-2-tps-1656-730.png" width="100%" height="100%" >
+                         </div>
+                         </div>
+                        <div style=" float:left; width:6.9%; height:100px;" ></div>
+                 </div>
+
+                 <div class="tc42"id="tc42" >
+                        <div style=" float:left; width:6.8%; height:100px;" ></div>
+                        <div style=" float:left; width:86.3%; " >
+                         <div class="gb42" id="gb42" style=" float:left;  width:5.208% ;height:5.55%; ">
+                             <img src="https://gw.alicdn.com/imgextra/i2/O1CN01eNPlux1iPznn8FEtS_!!6000000004406-2-tps-100-60.png" width="100%" height="100%" >
+                         </div>
+
+                         <div  style=" float:left;  width:100%;height:100%; ">
+                            <img src="https://gw.alicdn.com/imgextra/i1/O1CN013w7c2L1qlzl1TJCDs_!!6000000005537-2-tps-1656-730.png" width="100%" height="100%" >
+                         </div>
+                         </div>
+                        <div style=" float:left; width:6.9%; height:100px;" ></div>
+                 </div>
+             <!--第二排弹窗结束-->
+
+             <!--第三排弹窗开始-->
+
+               <div class="tc13"id="tc13" >
+
+                        <div style=" float:left; width:6.8%; height:100px;" ></div>
+                        <div style=" float:left; width:86.3%; " >
+                         <div class="gb13" id="gb13" style=" float:left;  width:5.208% ;height:5.55%; ">
+                             <img src="https://gw.alicdn.com/imgextra/i2/O1CN01eNPlux1iPznn8FEtS_!!6000000004406-2-tps-100-60.png" width="100%" height="100%" >
+                         </div>
+
+                         <div  style=" float:left;  width:100%;height:100%; ">
+                            <img src="https://gw.alicdn.com/imgextra/i1/O1CN01outhUt1hi1mWwB7Cc_!!6000000004310-2-tps-1656-730.png" width="100%" height="100%" >
+                         </div>
+                         </div>
+                        <div style=" float:left; width:6.9%; height:100px;" ></div>
+                 </div>
+
+                 <div class="tc23"id="tc23" >
+                        <div style=" float:left; width:6.8%; height:100px;" ></div>
+                        <div style=" float:left; width:86.3%; " >
+                         <div class="gb23" id="gb23" style=" float:left;  width:5.208% ;height:5.55%; ">
+                             <img src="https://gw.alicdn.com/imgextra/i2/O1CN01eNPlux1iPznn8FEtS_!!6000000004406-2-tps-100-60.png" width="100%" height="100%" >
+                         </div>
+
+                         <div  style=" float:left;  width:100%;height:100%; ">
+                            <img src="https://gw.alicdn.com/imgextra/i4/O1CN01NrmFdS1mLeVn3ur5C_!!6000000004938-2-tps-1656-730.png" width="100%" height="100%" >
+                         </div>
+                         </div>
+                        <div style=" float:left; width:6.9%; height:100px;" ></div>
+                 </div>
+
+                 <div class="tc33"id="tc33" >
+                        <div style=" float:left; width:6.8%; height:100px;" ></div>
+                        <div style=" float:left; width:86.3%; " >
+                         <div class="gb33" id="gb33" style=" float:left;  width:5.208% ;height:5.55%; ">
+                             <img src="https://gw.alicdn.com/imgextra/i2/O1CN01eNPlux1iPznn8FEtS_!!6000000004406-2-tps-100-60.png" width="100%" height="100%" >
+                         </div>
+
+                         <div  style=" float:left;  width:100%;height:100%; ">
+                            <img src="https://gw.alicdn.com/imgextra/i1/O1CN010UQ4NF1F81PDAGZbD_!!6000000000441-2-tps-1656-730.png" width="100%" height="100%" >
+                         </div>
+                         </div>
+                        <div style=" float:left; width:6.9%; height:100px;" ></div>
+                 </div>
+
+                 <div class="tc43"id="tc43" >
+                        <div style=" float:left; width:6.8%; height:100px;" ></div>
+                        <div style=" float:left; width:86.3%; " >
+                         <div class="gb43" id="gb43" style=" float:left;  width:5.208% ;height:5.55%; ">
+                             <img src="https://gw.alicdn.com/imgextra/i2/O1CN01eNPlux1iPznn8FEtS_!!6000000004406-2-tps-100-60.png" width="100%" height="100%" >
+                         </div>
+
+                         <div  style=" float:left;  width:100%;height:100%; ">
+                            <img src="https://gw.alicdn.com/imgextra/i2/O1CN01g28FXN1aw2acOooWA_!!6000000003393-2-tps-1656-730.png" width="100%" height="100%" >
+                         </div>
+                         </div>
+                        <div style=" float:left; width:6.9%; height:100px;" ></div>
+                 </div>
+             <!--第三排弹窗结束-->  
+
+             <!--第四排弹窗开始-->
+
+               <div class="tc14"id="tc14" >
+                        <div style=" float:left; width:6.8%; height:100px;" ></div>
+                        <div style=" float:left; width:86.3%; " >
+                         <div class="gb14" id="gb14" style=" float:left;  width:5.208% ;height:5.55%; ">
+                             <img src="https://gw.alicdn.com/imgextra/i2/O1CN01eNPlux1iPznn8FEtS_!!6000000004406-2-tps-100-60.png" width="100%" height="100%" >
+                         </div>
+
+                         <div  style=" float:left;  width:100%;height:100%; ">
+                            <img src="https://gw.alicdn.com/imgextra/i3/O1CN01yWnAdr1q1jknU6JzC_!!6000000005436-2-tps-1656-730.png" width="100%" height="100%" >
+                         </div>
+                         </div>
+                        <div style=" float:left; width:6.9%; height:100px;" ></div>
+                 </div>
+
+                 <div class="tc24"id="tc24" >
+                        <div style=" float:left; width:6.8%; height:100px;" ></div>
+                        <div style=" float:left; width:86.3%; " >
+                         <div class="gb24" id="gb24" style=" float:left;  width:5.208% ;height:5.55%; ">
+                             <img src="https://gw.alicdn.com/imgextra/i2/O1CN01eNPlux1iPznn8FEtS_!!6000000004406-2-tps-100-60.png" width="100%" height="100%" >
+                         </div>
+
+                         <div  style=" float:left;  width:100%;height:100%; ">
+                            <img src="https://gw.alicdn.com/imgextra/i2/O1CN01QANdup1fuH8t6iu66_!!6000000004066-2-tps-1656-730.png" width="100%" height="100%" >
+                         </div>
+                         </div>
+                        <div style=" float:left; width:6.9%; height:100px;" ></div>
+                 </div>
+
+                 <div class="tc34"id="tc34" >
+                        <div style=" float:left; width:6.8%; height:100px;" ></div>
+                        <div style=" float:left; width:86.3%; " >
+                         <div class="gb34" id="gb34" style=" float:left;  width:5.208% ;height:5.55%; ">
+                             <img src="https://gw.alicdn.com/imgextra/i2/O1CN01eNPlux1iPznn8FEtS_!!6000000004406-2-tps-100-60.png" width="100%" height="100%" >
+                         </div>
+
+                         <div  style=" float:left;  width:100%;height:100%; ">
+                            <img src="https://gw.alicdn.com/imgextra/i4/O1CN01Djeors28OmlbuRPx0_!!6000000007923-2-tps-1656-730.png" width="100%" height="100%" >
+                         </div>
+                         </div>
+                        <div style=" float:left; width:6.9%; height:100px;" ></div>
+                 </div>
+
+                 <div class="tc44"id="tc44" >
+                        <div style=" float:left; width:6.8%; height:100px;" ></div>
+                        <div style=" float:left; width:86.3%; " >
+                         <div class="gb44" id="gb44" style=" float:left;  width:5.208% ;height:5.55%; ">
+                             <img src="https://gw.alicdn.com/imgextra/i2/O1CN01eNPlux1iPznn8FEtS_!!6000000004406-2-tps-100-60.png" width="100%" height="100%" >
+                         </div>
+
+                         <div  style=" float:left;  width:100%;height:100%; ">
+                            <img src="https://gw.alicdn.com/imgextra/i2/O1CN01pgL2bq1gZxBRcf8kO_!!6000000004157-2-tps-1656-732.png" width="100%" height="100%" >
+                         </div>
+                         </div>
+                        <div style=" float:left; width:6.9%; height:100px;" ></div>
+                 </div>
+             <!--第四排弹窗结束-->  
+
+             <!--第五排弹窗开始-->
+
+               <div class="tc15"id="tc15" >
+                        <div style=" float:left; width:6.8%; height:100px;" ></div>
+                        <div style=" float:left; width:86.3%; " >
+                         <div class="gb15" id="gb15" style=" float:left;  width:5.208% ;height:5.55%; ">
+                             <img src="https://gw.alicdn.com/imgextra/i2/O1CN01eNPlux1iPznn8FEtS_!!6000000004406-2-tps-100-60.png" width="100%" height="100%" >
+                         </div>
+
+                         <div  style=" float:left;  width:100%;height:100%; ">
+                            <img src="https://gw.alicdn.com/imgextra/i2/O1CN01BF2tIQ1vAxoNqaTjc_!!6000000006133-2-tps-1656-730.png" width="100%" height="100%" >
+                         </div>
+                         </div>
+                        <div style=" float:left; width:6.9%; height:100px;" ></div>
+                 </div>
+
+                 <div class="tc25"id="tc25" >
+                        <div style=" float:left; width:6.8%; height:100px;" ></div>
+                        <div style=" float:left; width:86.3%; " >
+                         <div class="gb25" id="gb25" style=" float:left;  width:5.208% ;height:5.55%; ">
+                             <img src="https://gw.alicdn.com/imgextra/i2/O1CN01eNPlux1iPznn8FEtS_!!6000000004406-2-tps-100-60.png" width="100%" height="100%" >
+                         </div>
+
+                         <div  style=" float:left;  width:100%;height:100%; ">
+                            <img src="https://gw.alicdn.com/imgextra/i4/O1CN01w9X4q51rJt3scP50h_!!6000000005611-2-tps-1656-730.png" width="100%" height="100%" >
+                         </div>
+                         </div>
+                        <div style=" float:left; width:6.9%; height:100px;" ></div>
+                 </div>
+
+                 <div class="tc35"id="tc35" >
+                        <div style=" float:left; width:6.8%; height:100px;" ></div>
+                        <div style=" float:left; width:86.3%; " >
+                         <div class="gb35" id="gb35" style=" float:left;  width:5.208% ;height:5.55%; ">
+                             <img src="https://gw.alicdn.com/imgextra/i2/O1CN01eNPlux1iPznn8FEtS_!!6000000004406-2-tps-100-60.png" width="100%" height="100%" >
+                         </div>
+
+                         <div  style=" float:left;  width:100%;height:100%; ">
+                            <img src="https://gw.alicdn.com/imgextra/i2/O1CN0116K9md1jS7FnzeedO_!!6000000004546-2-tps-1656-730.png" width="100%" height="100%" >
+                         </div>
+                         </div>
+                        <div style=" float:left; width:6.9%; height:100px;" ></div>
+                 </div>
+
+                 <div class="tc45"id="tc45" >
+                        <div style=" float:left; width:6.8%; height:100px;" ></div>
+                        <div style=" float:left; width:86.3%;" >
+                         <div class="gb45" id="gb45" style=" float:left;  width:5.208% ;height:5.55%; ">
+                             <img src="https://gw.alicdn.com/imgextra/i2/O1CN01eNPlux1iPznn8FEtS_!!6000000004406-2-tps-100-60.png" width="100%" height="100%" >
+                         </div>
+
+                        <!-- <div  style=" float:left;  width:100%;height:100%; ">
+                            <img src="https://gw.alicdn.com/imgextra/i1/O1CN01YxmRol1OrD1X5UUyx_!!6000000001758-2-tps-1656-730.png" width="100%" height="100%" >
+                         </div>--> 
+                         </div>
+                        <div style=" float:left; width:6.9%; height:100px;" ></div>
+                 </div>
+             <!--第五排弹窗结束-->  
+
+             
+            </div>
+
+
+        </div>
+
+
+
+
+        <div id="mask" style="display: none;"></div>
+
+</body>
+
+<script>
+    // 第一排点击开始
+
+    // 获取dom节点
+    let box1 = document.getElementById('box1');
+    let tc1  = document.getElementById('tc1');
+
+    // 展示弹框点击事件
+    box1.onclick=function(){
+        tc1.style.cssText = 'display:block'
+       
+    }
+
+
+    // 获取dom节点
+    let box2 = document.getElementById('box2');
+    let tc2  = document.getElementById('tc2');
+
+    // 展示弹框点击事件
+    box2.onclick=function(){
+        tc2.style.cssText = 'display:block'
+       
+    }    
+
+    // 弹框取消
+    let gb1 = document.getElementById('gb1');
+    gb1.onclick = function(){
+        tc1.style.cssText = 'display:none'
+    }
+
+    // 弹框取消
+    let gb2 = document.getElementById('gb2');
+    gb2.onclick = function(){
+        tc2.style.cssText = 'display:none'
+    }
+    //----------------------------------------------
+
+     // 获取dom节点
+    let box3 = document.getElementById('box3');
+    let tc3  = document.getElementById('tc3');
+
+    // 展示弹框点击事件
+    box3.onclick=function(){
+        tc3.style.cssText = 'display:block'
+       
+    }
+
+    // 获取dom节点
+    let box4 = document.getElementById('box4');
+    let tc4  = document.getElementById('tc4');
+
+    // 展示弹框点击事件
+    box4.onclick=function(){
+        tc4.style.cssText = 'display:block'
+       
+    }    
+
+    // 弹框取消
+    let gb3 = document.getElementById('gb3');
+    gb3.onclick = function(){
+        tc3.style.cssText = 'display:none'
+    }
+
+    // 弹框取消
+    let gb4 = document.getElementById('gb4');
+    gb4.onclick = function(){
+        tc4.style.cssText = 'display:none'
+    }
+    //----------------------------------------------   
+
+
+    // 第一排点击结束
+
+    // 第二排点击开始
+
+    // 获取dom节点
+    let box12 = document.getElementById('box12');
+    let tc12  = document.getElementById('tc12');
+
+    // 展示弹框点击事件
+    box12.onclick=function(){
+        tc12.style.cssText = 'display:block'
+       
+    }
+
+
+    // 获取dom节点
+    let box22 = document.getElementById('box22');
+    let tc22  = document.getElementById('tc22');
+
+    // 展示弹框点击事件
+    box22.onclick=function(){
+        tc22.style.cssText = 'display:block'
+       
+    }    
+
+    // 弹框取消
+    let gb12 = document.getElementById('gb12');
+    gb12.onclick = function(){
+        tc12.style.cssText = 'display:none'
+    }
+
+    // 弹框取消
+    let gb22 = document.getElementById('gb22');
+    gb22.onclick = function(){
+        tc22.style.cssText = 'display:none'
+    }
+    //----------------------------------------------
+
+     // 获取dom节点
+    let box32 = document.getElementById('box32');
+    let tc32  = document.getElementById('tc32');
+
+    // 展示弹框点击事件
+    box32.onclick=function(){
+        tc32.style.cssText = 'display:block'
+       
+    }
+
+    // 获取dom节点
+    let box42 = document.getElementById('box42');
+    let tc42  = document.getElementById('tc42');
+
+    // 展示弹框点击事件
+    box42.onclick=function(){
+        tc42.style.cssText = 'display:block'
+       
+    }    
+
+    // 弹框取消
+    let gb32 = document.getElementById('gb32');
+    gb32.onclick = function(){
+        tc32.style.cssText = 'display:none'
+    }
+
+    // 弹框取消
+    let gb42 = document.getElementById('gb42');
+    gb42.onclick = function(){
+        tc42.style.cssText = 'display:none'
+    }
+    //----------------------------------------------   
+
+    // 第二排点击结束   
+
+    // 第三排点击开始
+
+    // 获取dom节点
+    let box13 = document.getElementById('box13');
+    let tc13  = document.getElementById('tc13');
+
+    // 展示弹框点击事件
+    box13.onclick=function(){
+        tc13.style.cssText = 'display:block'
+       
+    }
+
+
+    // 获取dom节点
+    let box23 = document.getElementById('box23');
+    let tc23  = document.getElementById('tc23');
+
+    // 展示弹框点击事件
+    box23.onclick=function(){
+        tc23.style.cssText = 'display:block'
+       
+    }    
+
+    // 弹框取消
+    let gb13 = document.getElementById('gb13');
+    gb13.onclick = function(){
+        tc13.style.cssText = 'display:none'
+    }
+
+    // 弹框取消
+    let gb23 = document.getElementById('gb23');
+    gb23.onclick = function(){
+        tc23.style.cssText = 'display:none'
+    }
+    //----------------------------------------------
+
+     // 获取dom节点
+    let box33 = document.getElementById('box33');
+    let tc33  = document.getElementById('tc33');
+
+    // 展示弹框点击事件
+    box33.onclick=function(){
+        tc33.style.cssText = 'display:block'
+       
+    }
+
+    // 获取dom节点
+    let box43 = document.getElementById('box43');
+    let tc43  = document.getElementById('tc43');
+
+    // 展示弹框点击事件
+    box43.onclick=function(){
+        tc43.style.cssText = 'display:block'
+    }    
+
+    // 弹框取消
+    let gb33 = document.getElementById('gb33');
+    gb33.onclick = function(){
+        tc33.style.cssText = 'display:none'
+    }
+
+    // 弹框取消
+    let gb43 = document.getElementById('gb43');
+    gb43.onclick = function(){
+        tc43.style.cssText = 'display:none'
+    }
+    //----------------------------------------------   
+
+
+    // 第三排点击结束
+
+      // 第四排点击开始
+
+    // 获取dom节点
+    let box14 = document.getElementById('box14');
+    let tc14  = document.getElementById('tc14');
+
+    // 展示弹框点击事件
+    box14.onclick=function(){
+        tc14.style.cssText = 'display:block'
+       
+    }
+
+
+    // 获取dom节点
+    let box24 = document.getElementById('box24');
+    let tc24  = document.getElementById('tc24');
+
+    // 展示弹框点击事件
+    box24.onclick=function(){
+        tc24.style.cssText = 'display:block'
+       
+    }    
+
+    // 弹框取消
+    let gb14 = document.getElementById('gb14');
+    gb14.onclick = function(){
+        tc14.style.cssText = 'display:none'
+    }
+
+    // 弹框取消
+    let gb24 = document.getElementById('gb24');
+    gb24.onclick = function(){
+        tc24.style.cssText = 'display:none'
+    }
+    //----------------------------------------------
+
+     // 获取dom节点
+    let box34 = document.getElementById('box34');
+    let tc34  = document.getElementById('tc34');
+
+    // 展示弹框点击事件
+    box34.onclick=function(){
+        tc34.style.cssText = 'display:block'
+       
+    }
+
+    // 获取dom节点
+    let box44 = document.getElementById('box44');
+    let tc44  = document.getElementById('tc44');
+
+    // 展示弹框点击事件
+    box44.onclick=function(){
+        tc44.style.cssText = 'display:block'
+       
+    }    
+
+    // 弹框取消
+    let gb34 = document.getElementById('gb34');
+    gb34.onclick = function(){
+        tc34.style.cssText = 'display:none'
+    }
+
+    // 弹框取消
+    let gb44 = document.getElementById('gb44');
+    gb44.onclick = function(){
+        tc44.style.cssText = 'display:none'
+    }
+    //----------------------------------------------   
+
+
+    // 第四排点击结束      
+
+
+     // 第五排点击开始
+
+    // 获取dom节点
+    let box15 = document.getElementById('box15');
+    let tc15  = document.getElementById('tc15');
+
+    // 展示弹框点击事件
+    box15.onclick=function(){
+        tc15.style.cssText = 'display:block'
+       
+    }
+
+
+    // 获取dom节点
+    let box25 = document.getElementById('box25');
+    let tc25  = document.getElementById('tc25');
+
+    // 展示弹框点击事件
+    box25.onclick=function(){
+        tc25.style.cssText = 'display:block'
+       
+    }    
+
+    // 弹框取消
+    let gb15 = document.getElementById('gb15');
+    gb15.onclick = function(){
+        tc15.style.cssText = 'display:none'
+    }
+
+    // 弹框取消
+    let gb25 = document.getElementById('gb25');
+    gb25.onclick = function(){
+        tc25.style.cssText = 'display:none'
+    }
+    //----------------------------------------------
+
+     // 获取dom节点
+    let box35 = document.getElementById('box35');
+    let tc35  = document.getElementById('tc35');
+
+    // 展示弹框点击事件
+    box35.onclick=function(){
+        tc35.style.cssText = 'display:block'
+       
+    }
+
+    // 获取dom节点
+    let box45 = document.getElementById('box45');
+    let tc45  = document.getElementById('tc45');
+
+    // 展示弹框点击事件
+    box45.onclick=function(){
+        tc45.style.cssText = 'display:block'
+       
+    }    
+
+    // 弹框取消
+    let gb35 = document.getElementById('gb35');
+    gb35.onclick = function(){
+        tc35.style.cssText = 'display:none'
+    }
+
+    // 弹框取消
+    let gb45 = document.getElementById('gb45');
+    gb45.onclick = function(){
+        tc45.style.cssText = 'display:none'
+    }
+    //----------------------------------------------   
+   // 第五排点击结束   
+
+ 
+ $('#box1,#box2,#box3,#box4,#box12,#box22,#box32,#box42,#box13,#box23,#box33,#box43,#box14,#box24,#box34,#box44,#box15,#box25,#box35,#box45').click(function(){
+     $('#mask').show()
+ })
+
+ $('#gb1,#gb2,#gb3,#gb4, #gb12,#gb22,#gb32,#gb42, #gb13,#gb23,#gb33,#gb43, #gb14,#gb24,#gb34,#gb44, #gb15,#gb25,#gb35,#gb45').click(function(e){
+    e.stopPropagation('#gb1,#gb2,#gb3,#gb4, #gb12,#gb22,#gb32,#gb42, #gb13,#gb23,#gb33,#gb43, #gb14,#gb24,#gb34,#gb44, #gb15,#gb25,#gb35,#gb45')
+    $('#mask').hide()
+ })
+ 
+
+  
+
+
+</script>
+
+</html>
